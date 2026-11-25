@@ -1,6 +1,6 @@
 /* ニャジラ LP — layout modeled on a game teaser site: full-bleed character collage hero,
    alternating feature blocks with device mockups + floating cut-outs, sticky store bar. */
-@font-face{font-family:"Dela";src:url(assets/dela-gothic-one-subset.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Dela";src:url(https://tttu732.github.io/nyajira/dela-gothic-one-subset.woff2) format("woff2");font-display:swap}
 :root{--pink:#ff3fa4;--cyan:#33f0ff;--yellow:#ffd93b;--purple:#a04bff;--green:#7dff6a;--ink:#0b0618;--deep:#160a2e;--panel:#1d0f3a;--text:#f2ecff;--muted:#bba9e6}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -13,7 +13,7 @@ a{color:var(--cyan)}
 
 /* ---------- hero ---------- */
 .hero{position:relative;height:min(100svh,980px);min-height:640px;overflow:hidden;isolation:isolate}
-.hero-bg{position:absolute;inset:-4% -2% 0;background:url(assets/bg-neon.jpg) center 70%/cover;z-index:-3;transform:translateY(calc(var(--sy,0)*.25px))}
+.hero-bg{position:absolute;inset:-4% -2% 0;background:url(https://tttu732.github.io/nyajira/bg-neon.jpg) center 70%/cover;z-index:-3;transform:translateY(calc(var(--sy,0)*.25px))}
 .hero::after{content:"";position:absolute;inset:0;z-index:-2;background:
   radial-gradient(ellipse at 50% 40%,rgba(11,6,24,0) 0,rgba(11,6,24,.25) 55%,rgba(11,6,24,.85) 100%),
   linear-gradient(180deg,rgba(11,6,24,.35) 0,rgba(11,6,24,0) 30%,rgba(11,6,24,0) 70%,var(--ink) 100%)}
@@ -76,7 +76,7 @@ a{color:var(--cyan)}
 .glow-line{position:absolute;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--c,var(--pink)),transparent);opacity:.5}
 
 /* districts */
-.areas{position:relative;padding:100px 0 110px;background:linear-gradient(180deg,var(--ink),rgba(11,6,24,.4) 18%,rgba(11,6,24,.4) 82%,var(--ink)),url(assets/bg-hokkaido.jpg) center/cover fixed}
+.areas{position:relative;padding:100px 0 110px;background:linear-gradient(180deg,var(--ink),rgba(11,6,24,.4) 18%,rgba(11,6,24,.4) 82%,var(--ink)),url(https://tttu732.github.io/nyajira/bg-hokkaido.jpg) center/cover fixed}
 .areas .head{text-align:center;margin-bottom:40px}
 .areas h2{margin:0;font-size:clamp(46px,7vw,84px);line-height:1.05;color:#fff;text-shadow:0 0 6px #fff,0 0 22px var(--yellow),0 0 44px #ff7b3b,5px 5px 0 #2a0b4a}
 .areas .head p{margin:12px 0 0}
