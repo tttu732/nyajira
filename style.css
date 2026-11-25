@@ -1,5 +1,5 @@
 /* Dela Gothic One (SIL OFL 1.1) — self-hosted subset, no external font requests */
-@font-face{font-family:"Dela Gothic One";src:url(assets/dela-gothic-one-subset.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Dela Gothic One";src:url(https://tttu732.github.io/nyajira/dela-gothic-one-subset.woff2) format("woff2");font-display:swap}
 :root{--pink:#ff3fa4;--cyan:#33f0ff;--yellow:#ffd93b;--purple:#a04bff;--ink:#0b0618;--panel:#1a0e30;--text:#efe8ff;--muted:#b9a8e0}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -20,7 +20,7 @@ img{max-width:100%;display:block}
 
 /* hero */
 .hero{position:relative;overflow:hidden;padding:72px 0 56px;background:radial-gradient(ellipse at 75% 20%,#4a1760 0,#0b0618 62%)}
-.hero::before{content:"";position:absolute;inset:0;background:url(assets/shot-play.jpg) center/cover;opacity:.16;filter:blur(3px)}
+.hero::before{content:"";position:absolute;inset:0;background:url(https://tttu732.github.io/nyajira/shot-play.jpg) center/cover;opacity:.16;filter:blur(3px)}
 .hero .wrap{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:32px;align-items:center}
 .kicker{color:var(--yellow);font-size:18px;text-shadow:0 0 10px rgba(255,217,59,.7)}
 .hero h1{margin:6px 0 4px;font-size:clamp(64px,11vw,128px);line-height:1;color:#fff;text-shadow:0 0 6px #fff,0 0 22px var(--pink),0 0 46px var(--pink),6px 6px 0 #3b0f5e}
